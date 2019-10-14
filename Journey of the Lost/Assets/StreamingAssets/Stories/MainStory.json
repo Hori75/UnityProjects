@@ -1,0 +1,18 @@
+{
+	"stories":[{
+		"EventName": "NewGame",
+		"eventdialog": [{
+			"Dialog": "Humanity was devasated by the uprising of the colonies. Our Origin Earth was destroyed and the space fleets were captured, left you and other loyalist to seek a new home hidden from the colonies. Collect 3 map fragments to find the new home",
+			"Choices": ["Start the game", " ", " "],
+			"ChoiceEffect": [{
+				"ResourceEffect": [{
+					"Fuel": 0,
+					"Ammo": 0,
+					"Scraps": 0
+				}],
+				"NextDialog": 0,
+				"DialogOpen": false
+			}]
+		}]
+	}]
+}

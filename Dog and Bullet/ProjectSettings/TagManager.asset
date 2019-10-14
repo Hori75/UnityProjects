@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Boundary
+  - Bullet
+  - Enemy
+  - EnemyBullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Turret
+  - Plane
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2745397243
+    locked: 0
+  - name: Lower
+    uniqueID: 906295765
+    locked: 0
+  - name: Enemy
+    uniqueID: 939293751
+    locked: 0
+  - name: Upper
+    uniqueID: 646776067
+    locked: 0
+  - name: Bulet
+    uniqueID: 1085002743
+    locked: 0

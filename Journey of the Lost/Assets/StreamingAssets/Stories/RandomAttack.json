@@ -1,0 +1,60 @@
+{
+	"stories":[{
+		"EventName": "PiratetAttack",
+		"eventdialog": [{
+			"Dialog": "You saw an unknown ship jumped out from hyperspace, moving towards you. It's a pirate ship that known from it's distinct features of patched hulls from the broken ship. It hunts for your ship like a prey.",
+			"Choices": ["Engage!", " ", " "],
+			"ChoiceEffect": [{
+				"ResourceEffect": [{
+					"Fuel": 0,
+					"Ammo": 0,
+					"Scraps": 0
+				}],
+				"NextDialog": 1,
+				"DialogOpen": false
+			}]
+		},
+		{
+			"Dialog": "You scavanged the broken apart pirate ship. It yields useful resources for your journey.",
+			"Choices": ["Continue", " ", " "],
+			"ChoiceEffect": [{
+				"ResourceEffect": [{
+					"Fuel": 0,
+					"Ammo": 0,
+					"Scraps": 25
+				}],
+				"NextDialog": 0,
+				"DialogOpen": false
+			}]
+		}]
+	},
+	{
+		"EventName": "PiratetAttack2",
+		"eventdialog": [{
+			"Dialog": "You arrived when the pirate ship attacking a civilian ship. Its hull broke apart, couldn't escape the attack. Now, the pirate ship is moving towards you.",
+			"Choices": ["Engage!", " ", " "],
+			"ChoiceEffect": [{
+				"ResourceEffect": [{
+					"Fuel": 0,
+					"Ammo": 0,
+					"Scraps": 0
+				}],
+				"NextDialog": 1,
+				"DialogOpen": false
+			}]
+		},
+		{
+			"Dialog": "You scavanged the broken apart pirate ship. It yields useful resources for your journey.",
+			"Choices": ["Continue", " ", " "],
+			"ChoiceEffect": [{
+				"ResourceEffect": [{
+					"Fuel": 0,
+					"Ammo": 0,
+					"Scraps": 25
+				}],
+				"NextDialog": 0,
+				"DialogOpen": false
+			}]
+		}]
+	}]
+}

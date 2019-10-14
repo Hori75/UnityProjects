@@ -1,0 +1,46 @@
+{
+	"stories": [{
+		"EventName": "NewGame1",
+		"EventText": "You woke up in medbay of this ship and didn't remember how did you make it here. You tried to find the pilot of this ship...", 
+		"Choices": ["Find the pilot in the Bridge", "I know what to do (Skip the first Story)", " "],
+		"ChoiceEffect": [{
+		    "Resources":
+			{
+				"Fuel": 0
+			},
+			"NextDialog": 1,
+			"DialogOpen": true
+		},{
+			"Resources":
+			{
+				"Fuel": 0
+			},
+			"NextDialog": 2,
+			"DialogOpen": false
+		}]
+	},{
+		"EventName": "NewGame2",
+		"EventText": "You found out that the old pilot of ths ship has passed away. You heard his last words in the captain log. \n \n \"Captain log number 965. This is for you, who still in comma, if you woke up. I wish I could live longer, but I couldn't. I shall give this cargoship to you. Help me deliver this last cargo, for me, will ya?\" \n \n You stored his body in cargo room and readied to deliver his last cargos, wondering what will you find first.",
+		"Choices": ["Start the game", " ", " "],
+		"ChoiceEffect": [{
+		    "Resources":
+			{
+				"Fuel": 0
+			},
+			"NextDialog": 2,
+			"DialogOpen": false
+		}]
+	},{
+		"EventName": "ArmedCargoShip",
+		"EventText": "You found out that this cargoship is armed. This should help you protect the ship. But you found out that the weapon systems are damaged and need repairs. \\n [HINT: assign your character to the weapon system room to repair it. It needs 1 cycle to finish the repair]",
+		"Choices": ["Interesting", " ", " "],
+		"ChoiceEffect": [{
+		    "Resources":
+			{
+				"Fuel": 0
+			},
+			"NextDialog": 4,
+			"DialogOpen": false
+		}]
+	}]
+}
